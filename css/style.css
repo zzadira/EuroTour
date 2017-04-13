@@ -91,3 +91,28 @@ header{
 /*-----------------------------------------
   MAIN
 -----------------------------------------*/
+.main{
+	display: flex;
+	justify-content: center;
+}
+.city{
+	display: flex;
+	position: relative;
+	top: -45px;
+}
+.city1{
+	background-image: url("../img/sity1.png");
+	width: 300px;
+	height: 364px;
+}
+.city2{
+	background-image: url("../img/sity2.png");
+	width: 300px;
+	height: 364px;
+	margin: 0 20px;
+}
+.city3{
+	background-image: url("../img/sity3.png");
+	width: 300px;
+	height: 364px;
+}
