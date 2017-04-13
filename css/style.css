@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1600px;
+}
+a{
+	text-decoration: none;
+}
+/*-----------------------------------------
+   ШАПКА 
+-----------------------------------------*/
+header{
+	height: 774px;
+	background: url("../img/head-bckg.jpg"), url("../img/Layer 1 copy.png");
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	list-style-type: none;
+}
+.menu li {
+	background-image: linear-gradient(to top, rgba(153, 68, 39, 0.16) 0%, rgba(255, 255, 255, 0.16) 77%, rgba(255, 255, 255, 0.16) 100%);
+	border-right: 1px solid grey;
+}
+.menu li a{
+	color: #ffffff;
+	font-family: "PT Sans";
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	display: block;
+	width: 187px;
+	height: 59px;
+	box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.21);
+	background-color: #e33131;
+	background-image: linear-gradient(to top, rgba(153, 68, 39, 0.16) 0%, rgba(255, 255, 255, 0.16) 77%, rgba(255, 255, 255, 0.16) 100%);
+	border-right: 1px solid grey;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.side-left{
+	border-bottom-left-radius: 5px;
+}
+.side-right{
+	border-bottom-right-radius: 5px;
+}
+.air{
+	margin-left: 713px;
+	margin-top: 68px;
+}
+.head{
+	margin-left: 656px;
+	margin-top: 126px;
+}
+.head img{
+	padding-top: 28px;
+	margin-left: 78px;
+}
+.head h2{
+	color: #f3aa29;
+	font-family: "Open Sans";
+	font-size: 72px;
+	font-weight: 300;
+	line-height: 30px;
+	text-transform: uppercase;
+}
