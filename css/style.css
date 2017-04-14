@@ -11,7 +11,9 @@
 a {
 	text-decoration: none;
 }
-
+.clr{
+	clear: both;
+}
 /*-----------------------------------------
    ШАПКА 
 -----------------------------------------*/
@@ -180,7 +182,7 @@ header {
 	text-transform: uppercase;
 	margin-bottom: 47px;
 }
-#name, #mail, #country, #hotel{
+#name, #mail, #country, #hotel, #data, #data2{
 	background-image: url("../img/input.png");
 	width: 193px;
 	height: 30px;
@@ -199,4 +201,21 @@ header {
 }
 #country{
 	margin-right: 33px;
+	margin-bottom: 24px;
+}
+#data, #data2{
+	width: 318px;
+	height: 30px;
+	float: right;
+	margin-right:10px;
+}
+.inputs p{
+	color: #737272;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 27px;
+}
+#data{
+	margin-bottom: 32px;
 }
