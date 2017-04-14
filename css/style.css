@@ -115,7 +115,7 @@ header {
 	display: flex;
 	position: relative;
 	top: -45px;
-	color: #fff;
+	color: darkmagenta;
 	font-family: "Open Sans";
 	font-weight: 400;
 	line-height: 27px;
@@ -162,4 +162,41 @@ header {
 	box-sizing: border-box;
 	padding-top: 145px;
 }
-
+/*-----------------------------------------
+   INPUTS
+-----------------------------------------*/
+.inputs{
+	width: 434px;
+	height: 604px;
+	margin-left:330px;
+	margin-top: 120px;
+}
+.inputs h1{
+	color: #002747;
+	font-family: "Open Sans";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 27px;
+	text-transform: uppercase;
+	margin-bottom: 47px;
+}
+#name, #mail, #country, #hotel{
+	background-image: url("../img/input.png");
+	width: 193px;
+	height: 30px;
+	border: 1px rgba(95, 94, 94, 0.71);
+	color: #737272;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 27px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+#name{
+	margin-right: 33px;
+	margin-bottom: 13px;
+}
+#country{
+	margin-right: 33px;
+}
