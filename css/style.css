@@ -170,11 +170,28 @@ header {
 /*-----------------------------------------
    INPUTS
 -----------------------------------------*/
+#video-bg {
+	position: absolute;
+	top: 771px;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	background-size: cover;
+	z-index: -9999;
+}
+
+#video-bg > video {
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height:100%;
+	width: auto;
+	height: auto;
+}
 .inputs{
 	width: 434px;
 	height: 604px;
 	margin-left:330px;
-	margin-top: 120px;
 }
 .inputs h1{
 	color: #002747;
