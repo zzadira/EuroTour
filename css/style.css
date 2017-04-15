@@ -225,3 +225,17 @@ header {
 input[type="radio"]{
 	margin-left: 20px;
 }
+#area{
+	width: 422px;
+	height: 197px;
+	color: #737272;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 27px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-top: 5px;
+	resize: none;
+
+}
