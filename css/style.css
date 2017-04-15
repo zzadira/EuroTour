@@ -237,5 +237,19 @@ input[type="radio"]{
 	padding-left: 20px;
 	padding-top: 5px;
 	resize: none;
-
+}
+input[type="submit"]{
+	width: 88px;
+	height: 29px;
+	background-image: url("../img/input.png");
+	border-radius: 20px;
+	box-shadow: none;
+	color: #737272;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 27px;
+}
+input[type="submit"]:active{
+	outline: none;
 }
