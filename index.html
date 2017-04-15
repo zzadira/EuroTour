@@ -43,11 +43,26 @@
 		</article>
 		</div>
 	</section>
+	<section class="inputs">
+	<h1>Booking Form</h1>
+		<form action="#">
+			<input type="text" id="name" placeholder="Name" required pattern="\S+[A-za-z]">
+			<input type="email" id="mail" placeholder="Email" required pattern="\S+@[a-z]+.[a-z]+">
+			<input type="text" id="country" placeholder="Country" required pattern="\S+[A-za-z]">
+			<input type="text" id="hotel" placeholder="Hotel" required pattern=\S+[A-za-z]">
+			<p>Check-in
+			<input type="date" id="data" placeholder="20/05/2017" min="20-05-2014" max="20-10-2017"></p>
+			<div class="clr"></div>
+			<P>Check-out
+				<input type="date" id="data2" placeholder="25/05/2017" min="25-05-2014" max="30-10-2017"></p>
+			<p>Comfort</p>
+			<p><input name="radio" type="radio" value="Cheap"> Cheap
+			<input name="radio" type="radio" value="Standart"> Standart
+			<input name="radio" type="radio" value="Lux" checked> Lux</p>
+			<textarea name="textarea" id="area" cols="30" rows="10" placeholder="Message:"></textarea>
 
-
-
-
+		</form>
+	</section>
 
 </div>
 </body>
-</html>
