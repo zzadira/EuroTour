@@ -222,7 +222,6 @@ header {
 #data{
 	margin-bottom: 32px;
 }
-.inputs li{
-	float: left;
-	margin-right:43px;
+input[type="radio"]{
+	margin-left: 20px;
 }
